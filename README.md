@@ -36,6 +36,10 @@ The expected mean for the amount of an input (AM_m) is obtained from the literat
 
 Equation 1: μ (mean) = ln(E(X)) − (1/2 × σ²)
 
+where,
+E(X) is the expected mean in real space
+and σ is the geometric standard deviation in real space
+
 Equation 2: σ (standard deviation) = ln(e^GSD)
 
 The expected mean and standard deviation for a given input in a specific impact category (e.g., GHG_m and GHG_sd) are obtained from uncertainty analysis using SimaPro. A Monte Carlo simulation with 500 runs was conducted for each input across all four alternatives and the urine-derived P fertilizer process. These values, originally in real space, are converted to log space using Equations 3 and 4:
@@ -44,13 +48,22 @@ Equation 3: μ (mean) = ln((E(X))² / √((E(X))² + (SD(X))²))
 
 Equation 4: σ (standard deviation) = √(ln(((E(X))² + (SD(X))²) / (E(X))²))
 
+where,
+E(X) is the expected mean in real space
+and SD(X) is the expected standard deviation in real space
+
 Note: For amounts, the conversion of GSD from real space to log space is different because GSD is not the same as an expected standard deviation. To convert GSD from real space to log space, take the natural logarithm of the GSD.
 
 # How to Modify the Code to calculate MISA Delta Index:
+
 Line 7: Specify the path to the input Excel file.
+
 Line 8: Enter the relevant sheet name (e.g., BB_UD_GHG).
+
 Line 19: Indicate the column name corresponding to the impact category being analyzed (e.g., GHG_m, GHG_sd).
+
 Line 49: Define the path where the output file should be saved.
+
 Line 53: Provide the desired name for the output file
 
 # Contact
