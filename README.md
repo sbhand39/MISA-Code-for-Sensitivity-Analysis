@@ -13,7 +13,7 @@ The Moment Independent Sensitivity Analysis (MISA) quantifies the contribution o
 - `Beef Burger Patty_Sensitivity Analysis.xlsx`          → Contains mean and standard deviation for inputs used in Beef Burger Patty production using conventional and urine derived Phosphorous (P) fertilizer
 - `Plant-based Burger Patty_Sensitivity Analysis.xlsx`   → Contains mean and standard deviation for inputs used in Plant-based Burger Patty production using conventional and urine-derived P fertilizer
 - `Urine-derived P fertilizer_Sensitivity Analysis`      → Contains mean and standard deviation for inputs used in urine-derived P fertilizer
-- `Result.xlsx`                                          → Results of MISA Delta Index for the production of four alternatives (Conventional Beef Burger Patty, Urine-derived Beef Burger Patty, Conventional Plant-based Burger Patty and Urine-derived Plant-based Burger Patty) and urine-derived P fertilizer. 
+- `Results.xlsx`                                          → Results of MISA Delta Index for the production of four alternatives (Conventional Beef Burger Patty, Urine-derived Beef Burger Patty, Conventional Plant-based Burger Patty and Urine-derived Plant-based Burger Patty) and urine-derived P fertilizer. 
 - `README.md`                                            → This file
 
 # Required Python Packages
