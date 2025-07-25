@@ -49,9 +49,13 @@ Note: For amounts, the conversion of GSD from real space to log space is differe
 # How to Modify the Code to calculate MISA Delta Index:
 
 Line 7: Specify the path to the input Excel file.
+
 Line 8: Enter the relevant sheet name (e.g., BB_UD_GHG).
+
 Line 19: Indicate the column name corresponding to the impact category being analyzed (e.g., GHG_m, GHG_sd).
+
 Line 49: Define the path where the output file should be saved.
+
 Line 53: Provide the desired name for the output file
 
 # Contact
