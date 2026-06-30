@@ -6,7 +6,7 @@ This repository contains the code used to perform the Moment Independent Sensiti
 Authors: Dilan P. Evans, Sarishma Bhandari, Dwarakanath Ravikumar, and Treavor H. Boyer
 
 # Purpose
-The Moment Independent Sensitivity Analysis (MISA) quantifies the contribution of uncertainty in the life cycle inventory data as MISA Delta Index. A higher MISA Delta Index value indicates that the given input is more sensitive to the total emissions for a given impact category (Global Warming, Eutrophication, etc).
+MISA is used to identify the input parameters which contribute the most to the total output uncertainty. Each input parameter is assigned a MISA delta index. An input with a higher value of MISA delta index shows more contribution to the total output uncertainty than an input with lower value of MISA delta index.
 
 # Repository Structure
 - `MISA code.py`                                         → Main script for running MISA Delta Index
